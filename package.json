@@ -3,7 +3,7 @@
   "version": "1.0.1",
   "description": "crm",
   "main": "index.js",
-  "scripts": {    
+  "scripts": {
     "start": "node .",
     "dev": "nodemon ."
   },
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "apollo-server": "^3.4.0",
+    "bcrypt": "^5.0.1",
     "bcryptjs": "^2.4.3",
     "dotenv": "^10.0.0",
     "graphql": "^16.0.0",
