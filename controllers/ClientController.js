@@ -1,4 +1,3 @@
-const { findOneAndUpdate } = require("../models/clientModel");
 const Client = require("../models/clientModel");
 
 const newClient = async (input, ctx) => {
