@@ -1,6 +1,6 @@
 const {newUser, authUser, getUser, verifyToken} = require('../controllers/authController')
 const {newProduct, getProduct, getProductById, updateProduct, deleteProduct} = require('../controllers/productController')
-const {newClient, getClient, getClientBySeller, getOneClient, updateClient, deleteClient} = require('../controllers/clientController')
+const {newClient, getClient, getClientBySeller, getOneClient, updateClient, deleteClient} = require('../controllers/ClientController')
 const {newOrder, getOrder, getOrderBySeller, getOneOrder, updateOrder, deleteOrder, getOrderByState} = require('../controllers/orderController')
 const {betterClient, betterSeller, searchProduct} = require('../controllers/advanceController')
 
